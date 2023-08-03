@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="AGILE3D" />
-    <meta name="keywords" content="AGILE3D, Interactive 3D Segmentation, Point Cloud" />
+    <meta name="description" content="INF-PCA" />
+    <meta name="keywords" content="INF-PCA, Interactive Annotation, Point Cloud" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      AGILE3D: Attention Guided Interactive Multi-object 3D Segmentation
+      INF-PCA: Implicit neural field-based interactive point cloud semantic annotation
     </title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -56,48 +56,32 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
-                <span style="color: rgb(0, 100, 255)">AGILE3D</span>: <span style="color: rgb(0, 100, 255)">A</span>ttention <span style="color: rgb(0, 100, 255)">G</span>uided <span style="color: rgb(0, 100, 255)">I</span>nteractive Mu<span style="color: rgb(0, 100, 255)">l</span>ti-object <span style="color: rgb(0, 100, 255)">3D</span> S<span style="color: rgb(0, 100, 255)">e</span>gmentation
+                <span style="color: rgb(0, 100, 255)">INF-PCA</span>: <span style="color: rgb(0, 100, 255)">I</span>mplicit <span style="color: rgb(0, 100, 255)">N</span>eural
+                <span style="color: rgb(0, 100, 255)">F</span>ield-based Interactive <span style="color: rgb(0, 100, 255)">P</span>oint <span style="color: rgb(0, 100, 255)">C</span>loud
+                Semantic <span style="color: rgb(0, 100, 255)">A</span>nnotation
               </h1>
               <div class="is-size-5 publication-authors">
                 <span class="author-block">
-                  <a href="https://n.ethz.ch/~yuayue/">Yuanwen Yue</a
-                  ><sup>1,2</sup>,</span
-                >
+                  <a href="https://github.com/WHU-USI3DV">Chong Liu</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="https://www.vision.rwth-aachen.de/person/218/">Sabarinath Mahadevan</a
-                  ><sup>3</sup>,</span
-                >
+                  <a href="https://github.com/WHU-USI3DV">Xu Han</a><sup>2</sup>,</span>
                 <span class="author-block">
-                  <a href="https://jonasschult.github.io/">Jonas Schult</a
-                  ><sup>3</sup>,</span
-                >
-                <span class="author-block">
-                  <a href="https://francisengelmann.github.io/"
-                    >Francis Engelmann</a
-                  ><sup>2</sup>,
-                </span>
-                <br>
-                <span class="author-block">
-                  <a href="https://www.vision.rwth-aachen.de/person/1/">Bastian Leibe</a
-                  ><sup>3</sup>,</span
-                >
-                <span class="author-block">
-                  <a
-                    href="https://igp.ethz.ch/personen/person-detail.html?persid=143986"
-                    >Konrad Schindler</a
-                  ><sup>1,2</sup>,
+                  <a href="https://github.com/WHU-USI3DV">Chen Long</a><sup>1</sup>,
                 </span>
                 <span class="author-block">
-                  <a href="https://theodorakontogianni.github.io/"
-                    >Theodora Kontogianni</a
-                  ><sup>2</sup></span
-                >
+                  <a href="https://github.com/WHU-USI3DV">Wang Wang</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://github.com/WHU-USI3DV">Zhen Dong</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://github.com/WHU-USI3DV">Bisheng Yang</a><sup>1</sup>,
+                </span>
               </div>
 
               <div class="is-size-5 publication-authors">
-                <span class="author-block"><sup>1</sup>Photogrammetry and Remote Sensing, ETH Zurich</span>
-                <span class="author-block"><sup>2</sup>ETH AI Center, ETH Zurich</span>
-                <span class="author-block"><sup>3</sup>Computer Vision Group, RWTH Aachen University</span>
+                <span class="author-block"><sup>1</sup>LIESMARS, Wuhan University</span>
+                <span class="author-block"><sup>2</sup>Sensetime Research, Sensetime</span>
               </div>
 
               <div class="column has-text-centered">
@@ -114,22 +98,11 @@
                       <span>Paper</span>
                     </a>
                   </span>
-                  <span class="link-block">
-                    <a
-                      href="https://arxiv.org/abs/2306.00977"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="ai ai-arxiv"></i>
-                      </span>
-                      <span>arXiv</span>
-                    </a>
-                  </span>
                   <!-- Video Link. -->
                   <span class="link-block">
                     <a
                       href=""
-                      class="external-link button is-normal is-rounded is-dark" style="background-color: #96999B;"
+                      class="external-link button is-normal is-rounded is-dark" 
                     >
                       <span class="icon">
                         <i class="fab fa-youtube"></i>
@@ -141,7 +114,7 @@
                   <span class="link-block">
                     <a
                       href="https://github.com/ywyue/AGILE3D"
-                      class="external-link button is-normal is-rounded is-dark" style="background-color: #96999B;"
+                      class="external-link button is-normal is-rounded is-dark" 
                     >
                       <span class="icon">
                         <i class="fab fa-github"></i>
@@ -149,29 +122,22 @@
                       <span>Code</span>
                     </a>
                   </span>
+                  <!-- Data Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://arxiv.org/abs/2306.00977"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>Data</span>
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hero teaser">
-      <div class="container is-max-desktop center">
-        <div class="hero-body" align="center">
-            <video width="600" autoplay loop muted>
-                <source src="https://n.ethz.ch/~yuayue/assets/agile3d/teaser.mp4" type="video/mp4" />
-                  <!-- <source src="movie.ogg" type="video/ogg" /> -->
-                  Your browser does not support the video tag.
-            </video>
-            <br><br>
-            <div class="content has-text-justified">
-              <p>
-                <b>AGILE3D</b> is a novel method for interactive <b>multi-object</b> 3D segmentation that supports (1) <b><i>Click sharing</i></b>: Clicks on one object are naturally utilized to segment other objects. (2) <b><i>Holistic reasoning</i></b>: AGILE3D captures the contextual relationships among objects. E.g., clicks on the armrest of one chair will also help correct the armrests of other chairs. (3) <b><i>Globally-consistent mask</i></b>: AGILE3D encourages different regions to
-                directly compete for space in the whole scene so that each point is assigned exactly one label. (4) <b><i>Fast inference</i></b>: AGILE3D can pre-compute backbone features once per scene and only run a light-weight mask decoder per iteration.
-              </p>
-            </div>
         </div>
       </div>
     </section>
@@ -184,7 +150,7 @@
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                During interactive segmentation, a model and a user work together to delineate objects of interest in a 3D point cloud. In an iterative process, the model assigns each data point to an object (or the background), while the user corrects errors in the resulting segmentation and feeds them back into the model. From a machine learning perspective the goal is to design the model and the feedback mechanism in a way that minimizes the required user input. The current best practice segments objects one at a time, and asks the user to provide positive clicks to indicate regions wrongly assigned to the background and negative clicks to indicate regions wrongly assigned to the object (foreground). Sequentially visiting objects is wasteful, since it disregards synergies between objects: a positive click for a given object can, by definition, serve as a negative click for nearby objects, moreover a direct competition between adjacent objects can speed up the identification of their common boundary. We introduce AGILE3D, an efficient, attention-based model that (1) supports simultaneous segmentation of multiple 3D objects, (2) yields more accurate segmentation masks with fewer user clicks, and (3) offers faster inference. We encode the point cloud into a latent feature representation, and view user clicks as queries and employ cross-attention to represent contextual relations between different click locations as well as between clicks and the 3D point cloud features. Every time new clicks are added, we only need to run a lightweight decoder that produces updated segmentation masks. In experiments with four different point cloud datasets, AGILE3D sets a new state of the art, moreover, we also verify its practicality in real-world setups with a real user study.
+                Point cloud semantic segmentation is of great significance to 3D scene understanding, which relies on large amounts of labeled training data. Nevertheless, manually annotating large-scale datasets is quite time-consuming and tedious. This paper proposes an interactive point cloud semantic annotation method based on implicit neural field, which allows users to achieve high-quality, large-scene and multi-class semantic annotation with only a few dozen mouse clicks. Firstly, the appearance, geometry and semantic of the point clouds are jointly represented by an implicit neural field, which maps a 3D spatial coordinate to its corresponding attributes. Secondly, an uncertainty-based semantic entropy loss and a supervoxel-based local consistency loss are designed to force the network to produce deterministic predictions with local consistency and generate smoother and more accurate boundaries. Furthermore, an active learning-based strategy for click-free annotation is proposed and analyzed to further improve the annotation efficiency. Comprehensive experiments revealed that the proposed method reaches over 95% overall accuracy with less than 100 clicks per scene, and achieves more accurate annotations in indoor and outdoor scenes with less than 33% and 12% of clicks compared with the state-of-the-art method.
               </p>
             </div>
           </div>
@@ -194,17 +160,29 @@
         <section class="hero teaser">
           <div class="container is-max-desktop center">
             <div class="hero-body" align="center">
-              <h2 class="title is-3">Method</h2>
-                <video  autoplay loop muted>
-                  <source src="https://n.ethz.ch/~yuayue/assets/agile3d/model.mp4" type="video/mp4" />
-                  <!-- <source src="movie.ogg" type="video/ogg" /> -->
-                  Your browser does not support the video tag.
-                </video>
+              <h2 class="title is-3">Overview</h2>
+                <figure class="cd-image-container">
+                  <img src="img/workflow.jpg" alt="Original Image">
+                </figure> <!-- cd-image-container -->
                 <div class="content has-text-justified">
                   <p>
-                    Model of <b>AGILE3D</b>. Given a 3D scene and a user click sequence, (a) the feature backbone extracts per-point features and (b) the click-to-query module converts user clicks to semantically-aware spatial-temporal query vectors. (c) The mask decoder refines the point features and click queries through multiple attention mechanisms. (d) The mask prediction module first fuses the per-click mask logits to region-specific mask logits and then produces a final mask through a softmax.
+                    Workflow of the proposed interactive point cloud semantic annotation method <b>INF-PCA</b>: (a)offline reconstruction of the appearance field and the geometry field; (b)online interactive semantic annotation and semantic field reconstruction.
                   </p>
                 </div>
+                <figure class="cd-image-container">
+                  <img src="img/Joint_Reconstruction.jpg" alt="Original Image">
+                </figure> <!-- cd-image-container -->
+                <br>
+                <div class="content has-text-justified">
+                  <p>
+                    Firstly, the implicit neural field function F is off-line initialized by reconstructing the appearance field and the geometry field.
+                    Secondly, the users annotate a few points by mouse clicking, and the function F is optimized by jointly reconstructing the appearance field, the geometry field and the semantic field.
+                    Thirdly, the function F predicts the semantic labels of each point, the users choose misclassified points and correct their labels.
+                    Finally, the function F is further optimized based on the updated semantic supervision.
+                    The last two steps are sequentially iterated until the predicted semantic segmentation results reach a user-satisfactory accuracy.
+                  </p>
+                </div>                   
+                
             </div>
           </div>
         </section>
@@ -212,21 +190,26 @@
         <section class="hero teaser">
           <div class="container is-max-desktop center">
             <div class="hero-body" align="center">
-              <h2 class="title is-3">Open-world Interactive Segmentation</h2>
+              <h2 class="title is-3">Annoatation Result of INF-PCA</h2>
                 <div class="content has-text-justified">
                   <p>
-                    Interactive object segmentation aims to generalize to data distributions beyond those seen in training. AGILE3D can obtain high-quality masks of novel objects (e.g., statue, phone) with a few user clicks.
+                    The following figures show the interactive annotation results of INF-PCA. 
+                    The colored dots in the left column represent user-selected and labeled points and their colors represent semantic labels.
+                    The right column shows the comparison of the annoatation result with the ground truth.
+                    INF-PCA demonstrates impressive generalization within the scene. 
+                    As shown in the following figure, with only a few chairs annotated, all chairs in the scene can be annotated automatically.
                   </p>
                 </div>
+
                 <div class="figrow">
                   <div class="figcolumn">
                     <figure class="cd-image-container">
-                      <img src="assets/statue_scene.png" alt="Original Image">
+                      <img src="img/sem_1.jpg" alt="Original Image">
                       <span class="cd-image-label" data-type="original">
                       </span>
 
                       <div class="cd-resize-img"> <!-- the resizable image on top -->
-                        <img src="assets/statue_mask.png" alt="Modified Image">
+                        <img src="img/ann_1.jpg" alt="Modified Image">
                         <span class="cd-image-label" data-type="modified">
                         </span>
                       </div>
@@ -236,12 +219,194 @@
                   </div>
                   <div class="figcolumn">
                     <figure class="cd-image-container">
-                      <img src="assets/phone_scene.png" alt="Original Image">
+                      <img src="img/sem_1.jpg" alt="Original Image">
                       <span class="cd-image-label" data-type="original">
                       </span>
 
                       <div class="cd-resize-img"> <!-- the resizable image on top -->
-                        <img src="assets/phone_mask.png" alt="Modified Image">
+                        <img src="img/gt_1.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                </div>
+
+                <div class="figrow">
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_5.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/ann_5.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_5.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/gt_5.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                </div>
+                
+                <div class="figrow">
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_4.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/ann_4.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_4.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/gt_4.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                </div>
+
+                <div class="figrow">
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_2.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/ann_2.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_2.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/gt_2.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="hero teaser">
+          <div class="container is-max-desktop center">
+            <div class="hero-body" align="center">
+              <h2 class="title is-3">Active learning-based click-free annotation</h2>
+
+                <div class="content has-text-justified">
+                  <p>
+                    In the principle of interactive annotation, the users need to continuously select and modify misclassified points to optimize the segmentation model, which usually requires the users to frequently judge the segmentation results and manipulate the 3D visualization interface. 
+                    To reduce the manual operation mentioned above and further reduce the cost of manual annotation, an active learning-based strategy for click-free annotation is proposed and analyzed in this section.
+                    The following figures shows the annotation results of the proposed method on the S3DIS and Toronto-3D datasets with the active learning-based annotation mode.
+                  </p>
+                </div>
+
+                <div class="figrow">
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_3.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/ann_3.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_3.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/gt_3.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                </div>
+
+                <div class="figrow">
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_6.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/ann_6.jpg" alt="Modified Image">
+                        <span class="cd-image-label" data-type="modified">
+                        </span>
+                      </div>
+
+                      <span class="cd-handle"></span>
+                    </figure> <!-- cd-image-container -->
+                  </div>
+                  <div class="figcolumn">
+                    <figure class="cd-image-container">
+                      <img src="img/sem_6.jpg" alt="Original Image">
+                      <span class="cd-image-label" data-type="original">
+                      </span>
+
+                      <div class="cd-resize-img"> <!-- the resizable image on top -->
+                        <img src="img/gt_6.jpg" alt="Modified Image">
                         <span class="cd-image-label" data-type="modified">
                         </span>
                       </div>
@@ -256,7 +421,7 @@
           </div>
         </section>
 
-        <section class="hero teaser">
+        <!-- <section class="hero teaser">
           <div class="container is-max-desktop center">
             <div class="hero-body" align="center">
               <h2 class="title is-3">Annotation Tool</h2>
@@ -272,27 +437,15 @@
               </video>
             </div>
           </div>
-        </section>
+        </section> -->
 
-      </div>
-    </section>
-
-    <section class="section" id="BibTeX">
-      <div class="container is-max-desktop content">
-        <h2 class="title">Citation</h2>
-        <pre><code>@inproceedings{yue2023agile3d,
-  title     = {{AGILE3D: Attention Guided Interactive Multi-object 3D Segmentation}},
-  author    = {Yue, Yuanwen and Mahadevan, Sabarinath and Schult, Jonas and Engelmann, Francis and Leibe, Bastian and Schindler, Konrad and Kontogianni, Theodora},
-  booktitle = {arXiv preprint arXiv:2306.00977},
-  year      = {2023}
-}</code></pre>
       </div>
     </section>
 
     <section class="section" id="Acknowledgment">
       <div class="container is-max-desktop content">
         <h2 class="title">Acknowledgment</h2>
-        We sincerely thank all volunteers who participated in our user study. Francis Engelmann and Theodora Kontogianni are postdoctoral research fellows at the ETH AI Center. This project is partially funded by the ETH Career Seed Award - Towards Open-World 3D Scene Understanding, NeuroSys-D (03ZU1106DA) and BMBF projects 6GEM (16KISK036K).
+        This work was jointly supported by the National Natural Science Foundation of China Projects under Grants 42130105 and 42171431.
       </div>
     </section>
 
